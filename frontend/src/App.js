@@ -1,7 +1,16 @@
 import React from "react";
+
+import { About, Header, Footer, Skills, Testimonial, Work } from './container';
+
 function App() {
   return (
-    <div className="App">React App
+    <div className="App">
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }

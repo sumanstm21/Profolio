@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Work from '../Work';
-
-export const Work = () => {
+const Work = () => {
   return (
     <div>Work</div>
   )
 }
+
+export default Work;
